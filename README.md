@@ -55,11 +55,18 @@ Clients sign up by providing their details and accepting the Terms and Condition
 
 The Content Management System (CMS) is designed for admins to create and manage custom modules for workers. Admins can build each module by adding various types of interactive quizzes, such as flowchart questions, matching exercises, and flashcards. They can also enhance the learning experience by uploading media like documents, images, videos, and audio files.
 
+Click the picture below to watch the demo video:
+
+<a href="https://youtu.be/a4szjn5OcrQ" target="_blank">
+  <img src="https://github.com/user-attachments/assets/4601c9e6-6629-42ee-871b-b467e9df1822" alt="Demo Video" width="600"/>
+</a>
 
 
 #### 3. Realtime Support Page
 
 The support page allows patients to directly contact admins for inquiries through real-time chat. Key features include live messaging using WebSockets, profanity filtering to ensure respectful communication, and the use of browser service workers to sync conversations across multiple tabs without opening multiple WebSocket connections.
+
+
 
 ---
 
