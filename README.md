@@ -47,13 +47,19 @@ The **Readiness to Work** web application includes the following core features:
 
 #### 1. Authentication (JWT-based)
 
-- Secure user login and session management using JSON Web Tokens (JWT)
-- Role-based access (e.g., admin vs. clients)
-- Built-in safeguards to protect sensitive assessment data
+Clients sign up by providing their details and accepting the Terms and Conditions. After registering, they receive a verification link via email. Once verified, they can log in and are issued a JWT (JSON Web Token), which is used to securely authenticate their requests throughout the app.
+
+<img width="600" src="https://github.com/user-attachments/assets/982933d6-f461-4cf8-a5dc-781b4b05df3c" />
 
 #### 2. Content Management System (CMS)
 
+The Content Management System (CMS) is designed for admins to create and manage custom modules for workers. Admins can build each module by adding various types of interactive quizzes, such as flowchart questions, matching exercises, and flashcards. They can also enhance the learning experience by uploading media like documents, images, videos, and audio files.
+
+
+
 #### 3. Realtime Support Page
+
+The support page allows patients to directly contact admins for inquiries through real-time chat. Key features include live messaging using WebSockets, profanity filtering to ensure respectful communication, and the use of browser service workers to sync conversations across multiple tabs without opening multiple WebSocket connections.
 
 ---
 
